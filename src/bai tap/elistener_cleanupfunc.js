@@ -72,7 +72,7 @@ function App() {
         {posts.map((item) => (
           <li key={item.id}>{item.title}</li>
         ))}
-      </ul>
+      </ul> 
       {showGoToTop && (
         <button style={{ position: "fixed", right: "20px", bottom: "20px" }}>
           Go to top
